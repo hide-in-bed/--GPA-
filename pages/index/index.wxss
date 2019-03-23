@@ -1,0 +1,75 @@
+
+.section_input{
+  height:145rpx;
+  border-bottom:1rpx solid #aaa;
+}
+input{
+  height:60rpx;
+}
+.input1{
+  border:1rpx solid #ccc;
+  width:30%;
+  float:left;
+  margin:10rpx;
+  margin-left:50rpx;
+}
+.input2{
+  border:1rpx solid #ccc;
+  width:30%;
+  margin:10rpx;
+}
+.image_class{
+  width:50rpx;
+  height:50rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  float:left;
+}
+.text_class{
+  padding:2rpx 0rpx 10rpx 0rpx;
+}
+.buttonline{
+  height:120rpx;
+
+}
+.addClass{
+  margin-left:45rpx;
+  margin-top:20rpx;
+  /* border:1px #000 solid; */
+  width:300rpx;
+  background-color:#6495ED;
+  border-radius: 20rpx;
+  float:left;
+}
+.deleteClass{
+   margin-top:20rpx;
+  /* border:1px #000 solid; */
+  width:300rpx;
+  background-color: #6495ED;
+  border-radius: 20rpx;
+  float:left;
+  margin-left: 60rpx;
+}
+.calculate{
+  margin-left:45rpx;
+   margin-top:20rpx;
+  /* border:1px #000 solid; */
+  width:300rpx;
+  background-color: #6495ED;
+  border-radius: 20rpx;
+  float:left;
+}
+.clear{
+   margin-top:20rpx;
+  /* border:1px #000 solid; */
+  width:300rpx;
+  background-color: #6495ED;
+  border-radius:20rpx;
+  margin-bottom: 20rpx;
+  float:left;
+  margin-left: 60rpx;
+}
+.output{
+  border-top:1rpx solid #aaa;
+  padding: 20rpx 0rpx 0rpx 50rpx;
+}

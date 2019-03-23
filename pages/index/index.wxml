@@ -1,0 +1,24 @@
+ <form bindsubmit="formSubmit" bindreset="formReset" >
+ <view class="section_class"  wx:for="{{input_data}}">
+  <view class="section_input">
+   <view class="section_num"> 
+      <image class="image_class" src="../images/class.png"></image>
+      <view class="text_class">课程{{index+1}}</view>
+   </view>
+  <input class="input1" name="score{{index+1}}" placeholder="成绩" type="number" maxlength="3"/>
+  <input class="input1" name="credit{{index+1}}" placeholder="学分" type="digit" maxlength="3"/>
+  </view>
+ </view>
+  <view class="buttonline">
+  <button bindtap="addClass" class="addClass">添加课程</button>
+  <button bindtap="deleteClass" class="deleteClass">删除课程</button>
+  </view>
+  <view class="buttonline">
+  <button formType="submit" class="calculate">计算GPA</button>
+  <button formType="reset" class="clear">清空数据</button>
+  </view>
+</form>
+<view class="output">
+<view>已修总学分:{{credit_sum}}</view>
+<view>平均绩点:{{gpa_ave}}</view>
+</view>
